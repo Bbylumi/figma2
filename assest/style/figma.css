@@ -8,19 +8,19 @@
     box-sizing: border-box;
 }
 
-.container {
+
+.me-auto {
+    margin-right: auto !important;
+    gap: 58px;
+}
+
+.section-container {
     margin-bottom: 21px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 1140px;
-    box-sizing: border-box;
 }
 
 .features {
     margin: 10px 9px 10px 0;
     display: inline-block;
-    width: 100px;
     font-weight: 400;
     font-size: 14px;
     color: #191619;
@@ -60,10 +60,10 @@
     color: #191619;
 }
 
-.image {
+/*.image {
     margin-top: -30px;
     max-height: 100px;
-}
+}*/
 
 
 .company {
@@ -105,16 +105,19 @@
     box-sizing: border-box;
 }
 
-#container {
+#header-container {
     background: #EDFEFF;
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 50px 0 248px 0;
+
     width: 1440px;
     height: fit-content;
     box-sizing: border-box;
+}
+
+.power-section {
+    background: #EDFEFF;
 }
 
 .frame-image {
@@ -126,6 +129,7 @@
     bottom: 0px;
     height: 100%;
     opacity: 0.1;
+    margin-top: 85px;
 }
 
 .text-editor {
@@ -145,6 +149,12 @@
     font-size: 14px;
     line-height: 1.571;
     color: #878787;
+}
+
+.center-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .gettingstarted {
@@ -185,17 +195,21 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
     margin-top: 12px;
     width: 462px;
     height: 287px;
 }
 
 .second-frame {
-    margin: 0 0 100px 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 100px
+}
+
+#second-frame {
+    margin: 262px 4px 100px 285px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -209,10 +223,10 @@
     display: flex;
     padding: 6px 10.2px;
     box-sizing: border-box;
+    width: fit-content;
 }
 
 .ourcustomers {
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 8px;
@@ -238,6 +252,14 @@
     box-sizing: border-box;
 }
 
+
+.customer-section{
+margin-top: 50px;
+}
+
+.picture-section{
+    margin-bottom: 90px;
+}
 .partners-image {
     position: relative;
     display: flex;
@@ -347,7 +369,6 @@
 }
 
 .promisetexteditor {
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 8px;
@@ -359,7 +380,6 @@
 .tooltext {
     margin-bottom: 20px;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 28px;
@@ -407,8 +427,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 903px;
-    box-sizing: border-box;
 }
 
 .awardframe {
@@ -418,6 +436,7 @@
     display: flex;
     padding: 6px 10.4px;
     box-sizing: border-box;
+    width: fit-content;
 }
 
 #awards {
@@ -455,7 +474,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
-    height: 244px;
+    height: 289px;
 }
 
 .award-image {
@@ -467,10 +486,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
 }
 
 .market {
@@ -491,7 +506,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
-    height: 244px;
+    height: 289px;
 }
 
 .mostloved-image {
@@ -503,10 +518,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
 }
 
 .market {
@@ -527,7 +538,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
-    height: 244px;
+    height: 289px;
 }
 
 .category-image {
@@ -539,10 +550,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
 }
 
 .market {
@@ -572,6 +579,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
+    height: 289px;
 }
 
 .recommended-image {
@@ -580,10 +588,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
     margin: 0 3.3px 10px 0;
     width: 127.7px;
     height: 100px;
@@ -598,6 +602,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
+    height: 289px;
 }
 
 .champion-image {
@@ -606,10 +611,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
     margin: 0 3.3px 10px 0;
     width: 72.1px;
     height: 100px;
@@ -624,6 +625,7 @@
     justify-content: center;
     align-items: center;
     width: 261px;
+    height: 289px;
 }
 
 .top-image {
@@ -632,12 +634,12 @@
     height: 100px;
 }
 
-.third-frame {
-    margin: -74px 0 0 19px;
+.third-frame { 
     display: flex;
     flex-direction: column;
     align-items: center;
     box-sizing: border-box;
+    margin-top: 30px;
 }
 
 .create-container {
@@ -661,7 +663,6 @@
 .create-text {
     margin-bottom: 5px;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 600;
     font-size: 16px;
@@ -687,7 +688,6 @@
     opacity: 0.8;
     margin: 3px 0 2px 0;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -713,7 +713,6 @@
     opacity: 0.8;
     margin-top: 1px;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -739,7 +738,6 @@
     opacity: 0.8;
     margin-top: 2px;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -789,7 +787,6 @@
     margin-bottom: 10px;
     display: inline-block;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 16px;
@@ -800,7 +797,6 @@
 .ask-text {
     margin-bottom: 30px;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -815,10 +811,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: initial;
-    background-origin: initial;
-    background-clip: initial;
-    background-color: initial;
     margin-top: 12px;
     width: 462px;
     height: 287px;
@@ -917,10 +909,6 @@
     background-position-y: center;
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute;
-    left: 50%;
-    bottom: 0px;
-    translate: -50% 0;
     display: flex;
     padding-left: 5px;
     width: 358px;
@@ -932,10 +920,9 @@
     border-radius: 35px;
     background: #0CBBC7;
     position: absolute;
-    top: 168px;
-    right: 141px;
     width: 70px;
     height: 70px;
+    margin: 155px;
 }
 
 .polygon2 {
@@ -963,12 +950,19 @@
     box-sizing: border-box;
 }
 
+
+.signup{
+    margin: 60px;
+}
+ 
 .iconArrowSliderNext2 {
     margin-right: 10px;
     display: flex;
     width: 20px;
     height: 20px;
     box-sizing: border-box;
+    left: 140px;
+    position: relative;
 }
 
 .iconArrowSliderNext1 {
@@ -976,7 +970,15 @@
     width: 20px;
     height: 20px;
     box-sizing: border-box;
+    left: 138px;
+    position: relative;
 }
+
+
+.paypal-section {
+    margin: 100px;
+}
+
 
 .testimonials-shape {
     border-radius: 60px;
@@ -997,7 +999,7 @@
     color: #0CBBC7;
 }
 
-.container14 {
+.drive-impact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1005,7 +1007,7 @@
     box-sizing: border-box;
 }
 
-.container23 {
+.driveimpact {
     margin-bottom: 97px;
     display: flex;
     flex-direction: column;
@@ -1014,7 +1016,6 @@
 
 .see {
     margin-bottom: 40px;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 28px;
@@ -1030,14 +1031,13 @@
 }
 
 .seeCaseStudies {
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 14px;
     color: #FFFFFF;
 }
 
-.container6 {
+.paypal {
     background: #EDFEFF;
     position: relative;
     margin-top: 41px;
@@ -1046,6 +1046,8 @@
     padding: 20px 0 33px 20px;
     width: 358px;
     box-sizing: border-box;
+    top: 86px;
+    right: 165px;
 }
 
 .image22 {
@@ -1064,7 +1066,6 @@
     margin-bottom: 20px;
     display: inline-block;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -1089,7 +1090,6 @@
 .looking-text-editor {
     margin-bottom: 15px;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 28px;
@@ -1098,7 +1098,6 @@
 .checkout-text {
     margin: 0 0 33px 5px;
     display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 16px;
@@ -1151,15 +1150,7 @@
     background-repeat: no-repeat;
     width: 405px;
     height: 418px;
-}
-
-.excepteur-frame {
-    position: relative;
-    display: flex;
-    padding-right: 461.2px;
-    width: 1440px;
-    height: 750px;
-    box-sizing: border-box;
+    margin-top: 70px;
 }
 
 .excepteur {
@@ -1189,7 +1180,6 @@
 }
 
 .resources {
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 8px;
@@ -1201,7 +1191,6 @@
 .stay {
     margin-bottom: 50px;
     align-self: flex-end;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 28px;
@@ -1209,7 +1198,6 @@
 }
 
 .second-frame2 {
-    margin: 0 0 -120px 19px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1227,8 +1215,6 @@
     padding: 38px 34px 40px 35px;
     width: fit-content;
     box-sizing: border-box;
-    margin-left: 147px;
-    margin-block: auto;
     margin-bottom: 99px;
 }
 
@@ -1239,7 +1225,6 @@
     background: #FFFFFF;
     position: absolute;
     left: 50%;
-    bottom: 100px;
     translate: -50% 0;
     display: flex;
     flex-direction: column;
@@ -1264,7 +1249,6 @@
     margin-bottom: 11px;
     display: inline-block;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 16px;
@@ -1276,7 +1260,6 @@
     margin-bottom: 3px;
     display: inline-block;
     align-self: flex-start;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 400;
     font-size: 14px;
@@ -1326,60 +1309,35 @@
 
 }
 
-.excepteur-frame4 {
-    background: #0CBBC7;
-    align-self: flex-start;
-    padding: 10px 20px;
-    width: fit-content;
-    box-sizing: border-box;
+.excepteur-frame {
+    background: #EDFEFF;
+    padding-bottom: 100px;
+    padding-top: 74px;
 }
 
 .excepteur-frame5 {
     box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.03);
     border-radius: 4px;
     background: #FFFFFF;
-    position: absolute;
-    right: 150px;
-    bottom: 100px;
     display: flex;
     flex-direction: column;
     padding: 38px 34px 40px 35px;
     box-sizing: border-box;
+    width: fit-content;
 }
 
 .footer {
     background: #232323;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 0;
-    width: 1440px;
-    box-sizing: border-box;
+    padding: 50px;
 }
 
 .footer-image {
-    position: absolute;
-    left: 293px;
-    top: 150px;
     width: 153.5px;
-    height: 95px;
-}
-
-.footer-container {
     position: relative;
-    margin: 0 0 22px 313.9px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 477.9px;
-    box-sizing: border-box;
+    top: 50px;
 }
 
-.products {
-    margin-right: 9px;
-    width: 187px;
-    overflow-wrap: break-word;
+.footer-headline-title {
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 18px;
@@ -1388,14 +1346,6 @@
     color: #FFFFFF;
 }
 
-.Resources {
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 700;
-    font-size: 18px;
-    letter-spacing: 0.2px;
-    line-height: 1;
-    color: #FFFFFF;
-}
 
 .Francisco-container {
     position: relative;
@@ -1407,19 +1357,14 @@
 }
 
 .Francisco-text {
-    margin: 100px 164.2px 125px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 12px;
+    position: absolute;
     color: #FFFFFF;
 }
 
-.Delta {
-    margin: 8px 140.8px 32px 0;
-    display: inline-block;
-    overflow-wrap: break-word;
+.ul {
     font-family: 'Plus Jakarta Sans';
     font-weight: 500;
     font-size: 14px;
@@ -1427,26 +1372,6 @@
     color: #7C7C7C;
 }
 
-.help {
-    margin-right: 76.8px;
-    overflow-wrap: break-word;
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.857;
-    color: #7C7C7C;
-}
-
-.aboutus {
-    margin-bottom: 80px;
-    display: inline-block;
-    overflow-wrap: break-word;
-    font-family: 'Plus Jakarta Sans';
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 2.857;
-    color: #7C7C7C;
-}
 
 .footerline {
     opacity: 0.1;
@@ -1471,7 +1396,6 @@
     margin: 5px 7.5px 4px 0;
     display: inline-block;
     width: 528.5px;
-    overflow-wrap: break-word;
     font-family: 'Plus Jakarta Sans';
     font-weight: 500;
     font-size: 12px;
@@ -1491,4 +1415,38 @@
     font-weight: 500;
     font-size: 12px;
     color: #9B9B9B;
+}
+
+.navigation {
+    justify-content: space-between;
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* Styles for screens up to 768px wide */
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px !important;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    /* Styles for screens up to 480px wide */
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px !important;
+    }
+
 }
