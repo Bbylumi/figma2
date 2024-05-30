@@ -127,7 +127,7 @@
     top: 0px;
     right: 0px;
     bottom: 0px;
-    height: 100%;
+    height: 635px;
     opacity: 0.1;
     margin-top: 85px;
 }
@@ -139,6 +139,7 @@
     font-weight: 700;
     font-size: 44px;
     color: #191619;
+    margin-top: 65px;
 }
 
 .second-text-editor {
@@ -253,13 +254,14 @@
 }
 
 
-.customer-section{
-margin-top: 50px;
+.customer-section {
+    margin-top: 50px;
 }
 
-.picture-section{
+.picture-section {
     margin-bottom: 90px;
 }
+
 .partners-image {
     position: relative;
     display: flex;
@@ -351,11 +353,24 @@ margin-top: 50px;
     height: 1px;
 }
 
-.ourpromise {
-    margin: 86px 144px 79px 0;
+.ourpromise { 
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
+}
+
+.people-image{ 
+    border-radius: 4px;
+    background-image: url(/assest/img/group\ of\ people.png);
+    background-position-x: 50%;
+    background-position-y: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 12px;
+    width: 598px;
+    height: 287px;
+    left: 344px;    
+    position: relative;
 }
 
 #ourpromise {
@@ -401,6 +416,14 @@ margin-top: 50px;
     align-self: flex-start;
     padding: 14px 20px;
     box-sizing: border-box;
+}
+
+.getstarted2 {
+    background: #0CBBC7;
+    align-self: flex-start;
+    padding: 14px 20px;
+    box-sizing: border-box;
+    position: absolute;
 }
 
 .getstarted-text {
@@ -634,7 +657,7 @@ margin-top: 50px;
     height: 100px;
 }
 
-.third-frame { 
+.third-frame {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -760,11 +783,7 @@ margin-top: 50px;
 .create-section {
     background: #EDFEFF;
     position: relative;
-    display: flex;
-    flex-direction: row;
     padding: 50px 0 62px 0;
-    width: 1440px;
-    box-sizing: border-box;
 }
 
 #create-container {
@@ -785,8 +804,6 @@ margin-top: 50px;
 
 .advance-text {
     margin-bottom: 10px;
-    display: inline-block;
-    align-self: flex-start;
     font-family: 'Plus Jakarta Sans';
     font-weight: 700;
     font-size: 16px;
@@ -951,10 +968,10 @@ margin-top: 50px;
 }
 
 
-.signup{
+.signup {
     margin: 60px;
 }
- 
+
 .iconArrowSliderNext2 {
     margin-right: 10px;
     display: flex;
@@ -1375,10 +1392,8 @@ margin-top: 50px;
 
 .footerline {
     opacity: 0.1;
-    background: #FFFFFF;
-    position: relative;
+    background: #FFFFFF;    
     margin-bottom: 39px;
-    width: 1140px;
     height: 1px;
 }
 
@@ -1409,7 +1424,6 @@ margin-top: 50px;
 }
 
 .Privacy {
-    margin: 5px 0px 5px 0;
     display: inline-block;
     font-family: 'Raleway';
     font-weight: 500;
