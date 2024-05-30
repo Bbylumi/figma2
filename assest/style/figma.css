@@ -1343,6 +1343,28 @@
     width: fit-content;
 }
 
+.excepteur-frame1 {
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 34px 27px 35px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+.excepteur-frame2 {
+    box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.03);
+    border-radius: 4px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 38px 34px 45px 35px;
+    box-sizing: border-box;
+    width: fit-content;
+}
+
+
 .footer {
     background: #232323;
     padding: 50px;
